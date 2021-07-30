@@ -1,0 +1,203 @@
+.frog.orange.small {
+    background-color: orangered;
+    width: 75px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin: 10px 6%;
+    
+}
+.frog.orange.small.left-eye {
+    background-color: brown;
+    color:white;
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top:-10px;
+}
+  
+.frog.orange.small.left-eye .eye, .frog.orange.small.right-eye .eye {
+    display: block;
+    margin:25% 25%;
+}
+
+.frog.orange.small.right-eye {
+    float: right;
+    background-color: brown;
+    color:white;
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top:-10px;
+}
+
+.frog.orange.small.mouth {
+    
+    
+    text-align: center;
+
+}
+
+.frog.orange.big {
+    background-color: orangered;
+    width: 150px;
+   
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin: 10px 6%;
+}
+.frog.orange.big.left-eye {
+    background-color: brown;
+    color:white;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    
+    
+    left: -10px;
+    top:-10px;
+}
+.frog.orange.big.right-eye {
+    float: right;
+    background-color: brown;
+    color:white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top:-10px;
+}
+.frog.orange.big.left-eye .eye, .frog.orange.big.right-eye .eye {
+    margin:25% 25%;
+    display: block;
+}
+
+
+/** green frogs here **/
+
+.frog.green.small {
+    background-color: green;
+    width: 75px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin: 10px 6%;
+}
+.frog.green.small.left-eye {
+    background-color: darkgreen;
+    color:white;
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top:-10px;
+}
+
+.frog.green.small.right-eye {
+    float: right;
+    background-color: darkgreen;
+    color:white;
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top:-10px;
+}
+.frog.green.small.left-eye .eye, .frog.green.small.right-eye .eye {
+    margin:25% 25%;
+    display: block;
+}
+
+
+.frog.green.small.mouth {
+    
+    
+    text-align: center;
+
+}
+
+.frog.green.big {
+    background-color: green;
+    width: 150px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin: 10px 6%;
+}
+.frog.green.big.left-eye {
+    background-color: rgb(180, 255, 180);
+    color:black;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    
+    
+    left: -10px;
+    top:-10px;
+}
+.frog.green.big.right-eye {
+    float: right;
+    background-color: rgb(180, 255, 180);
+    color:black;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top:-10px;
+}
+.frog.green.big.left-eye .eye, .frog.green.big.right-eye .eye {
+    display: block;
+    margin:25% 25%;
+}
+.frog.green.big.mouth, .frog.orange.big.mouth {
+   
+    
+    text-align: center;
+    
+
+}
+/*** hover effect on eyes  ***/
+.frog.green.big:hover .left-eye, 
+.frog.green.big:hover .right-eye,
+.frog.orange.big:hover .left-eye,
+.frog.orange.big:hover .right-eye,
+
+.frog.green.small:hover .left-eye, 
+.frog.green.small:hover .right-eye,
+.frog.orange.small:hover .left-eye,
+.frog.orange.small:hover .right-eye
+
+  {
+    background-color: black;
+    color:white;
+}
